@@ -1,0 +1,11 @@
+tar:
+tar -zcvf name-of-your-tar-file.tar.gz /folder-you-want-to-tar
+
+untar:
+tar -zxcf name-of-your-tar-file.tar.gz /folder-you-want-to-untar
+
+f 参数必须在最后面， 也就是f之后就必须要跟着文件名
+z 参数说明要压缩
+v 可视化打包过程
+c create 档案
+x 解压缩
