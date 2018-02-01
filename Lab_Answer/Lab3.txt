@@ -1,0 +1,41 @@
+- Does the acquisition and verification hash match?
+	- yes
+
+- How many files located under this folder(FileSignatureAnalysis)?
+	- 10
+
+- How many files are visible(as picture)?
+	- filesiganalysis.jpg
+	- jpeg image renamed extension of unk type.zza 
+	- jpeg image.jpg
+
+- Check the signature of these files; is it JPG signature?
+	- filesiganalysis.jpg	--> FF D8 FF E0 --> JFIF
+	- jpeg image renamed extension of unk type.zza 	--> FF D8 FF E0 --> JFIF
+	- jpeg image.jpg	--> FF D8 FF E0 --> JFIF
+
+- What is their extension?
+	- filesiganalysis.jpg	--> jpg
+	- jpeg image renamed extension of unk type.zza	--> zza
+	- jpeg image.jpg	--> jpg
+
+- What is the hex value of file "jpeg image renamed extension.dll"?
+	- FF D8 FF E0.......... FF D9
+
+- Are you able to see this picture?
+	- No
+
+- What was the problem with this file "jpeg image renamed extension.dll"?
+	- wrong extension .dll(should be .jpg)
+
+- How many pictures did you find with incorrect extensions?
+	- 2
+
+- What is the hex value of this file "jpeg image with bad or unk header"?
+	- D8 D8 FF E0.........FF D9
+
+- What is the extension of this file?
+	- jpg
+
+- why you can not see this picture "jpeg image with bad or unk header"
+	- wrong hex header value

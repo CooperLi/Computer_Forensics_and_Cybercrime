@@ -1,0 +1,4 @@
+- What is the signature of a jpg file?
+	- FF D8 FF E1
+- What is the hex value that this file ends with?
+	- FF D9
